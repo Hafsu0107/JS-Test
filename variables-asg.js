@@ -245,5 +245,57 @@ var sent1 = str.substring(0, 15);
 console.log(sent1);
 
 // parseInt, parseFloat
+//ParseFloat: convert string into floating-point
+//ParseInt : convert string into integers
 
+let strNum1 = "42.5";
+let strNum2 = "30";
 
+// Convert using parseFloat and parseInt
+let num1 = parseFloat(strNum1);
+let num2 = parseInt(strNum2);
+
+console.log(num1); // Output: 42.5
+console.log(num2); // Output: 30
+
+//
+let stringVal1 = "Hafsa";
+let stringVal2 = "44.1";
+
+let val1 = parseFloat(stringVal1);
+let val2 = parseInt(stringVal2);
+console.log(val1);
+console.log(val2);
+
+//Arthimetic  (+,-,*,divide) quest done line numb (53)
+
+//Math.abs(num): Returns the absolute value of num. For -9, this is 9.
+//Math.pow(num, 2): Raises num to the power of 2. -9 squared is 81.
+// Math.sqrt(num): Returns the square root of a number.
+//Since Math.sqrt() returns NaN for negative values, we used Math.abs(num) to ensure the square root of 9 is calculated correctly.
+
+let num = -9;
+
+// Absolute value
+let absoluteValue = Math.abs(num);
+console.log(absoluteValue); // Output: 9
+
+// Power (raising to the power of 2)
+let squared = Math.pow(num, 2);
+console.log(squared); // Output: 81
+
+// Square root
+let squareRoot = Math.sqrt(Math.abs(num)); // Use Math.abs(num) to avoid NaN for negative values
+console.log(squareRoot); // Output: 3
+
+//
+let value = -10;
+
+let absoluteVal = Math.abs(value);
+console.log(absoluteVal);
+
+let squaredVal = Math.pow(value, 4);
+console.log(squaredVal);
+
+let sqrtVal = Math.sqrt(Math.abs(value));
+console.log(sqrtVal);
