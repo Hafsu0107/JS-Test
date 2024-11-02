@@ -291,11 +291,80 @@ console.log(squareRoot); // Output: 3
 //
 let value = -10;
 
-let absoluteVal = Math.abs(value);
+let absoluteVal = Math.abs(value); // convert neg to pstv value
 console.log(absoluteVal);
 
-let squaredVal = Math.pow(value, 4);
+let squaredVal = Math.pow(value, 4); //multiply
 console.log(squaredVal);
 
 let sqrtVal = Math.sqrt(Math.abs(value));
 console.log(sqrtVal);
+
+// Arrays And Object
+
+let myArray = ["Apple", "Mango", "Bannana", "Stawbery"];
+myArray.push("grapes");
+console.log(myArray); //add new item
+
+myArray.shift("Apple"); //remove item
+console.log(myArray);
+//Access the 1 and 2 fruit name
+console.log(myArray[1]);
+console.log(myArray[2]);
+
+myArray[myArray.length - 1] = "This is fruits";
+console.log(myArray);
+
+// print each object
+
+console.log(student.name);
+
+console.log(student.age);
+
+console.log(student.isStudent);
+
+//type coercion is ==,===
+let numberOne = "6";
+let numberTwo = "7";
+
+// let oneTwo = numberOne === numberTwo;
+let oneTwo = numberOne == numberTwo;
+
+let symbol = 0;
+
+if (symbol < 9) {
+  console.log("symbol is true");
+} else {
+  console.log("symbol is false");
+}
+
+let forvalue = {};
+
+if (forvalue > 9) {
+  console.log("symbol is true");
+} else {
+  console.log("symbol is false");
+}
+
+// Typeof and instanceof
+yourArray = [1, 2, 3, 4, 5];
+
+console.log(yourArray instanceof Array);
+
+///
+let var1 = 5;
+let var2 = 9;
+let add = var1 + var2; // -, *
+console.log(add);
+
+// detect NaN
+
+let Nan = 0 - 0;
+let isValueNan = isNaN(Nan);
+console.log(isValueNan);
+
+// check Array type
+let isValueArray = Array.isArray(yourArray);
+console.log(isValueArray);
+
+///Data Types and Variables Assigment Done
