@@ -368,3 +368,17 @@ let isValueArray = Array.isArray(yourArray);
 console.log(isValueArray);
 
 ///Data Types and Variables Assigment Done
+
+//Loops
+
+let movie = {
+  title: "Inception",
+  director: "Christopher Nolan",
+  releaseYear: 2010,
+  genre: "Science Fiction",
+};
+
+// Using for...in to iterate through the properties
+for (let key in movie) {
+  console.log(`${key}: ${movie[key]}`);
+}
