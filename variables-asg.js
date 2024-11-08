@@ -78,8 +78,8 @@ let message = "${greeting}, ${name}! How are you!";
 let score = 10;
 console.log(score); //1st output 10
 
-score++; //increment output 11
-console.log(score++);
+ score++; //increment output 11
+ console.log(score);
 
 score--; //decrement 10
 console.log(score);
