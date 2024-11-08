@@ -27,15 +27,15 @@ let country = "Pakistan";
 
 //String manupulation
 // to variable bnay string mai orr undono stirng ko 3rd variable kai sth add krdena string manupulation kehlata hai
-let myName = "Hafsa";
-let fName = "Shahid";
-let fullName = myName + "" + fName;
+// let myName = "Hafsa";
+// let fName = "Shahid";
+// let fullName = myName + "" + fName;
 // console.log(fullName);
 
 //my quest
-let userName = "Hafsa";
-let nickName = "Happaa";
-let idName = userName + "" + nickName;
+// let userName = "Hafsa";
+// let nickName = "Happaa";
+// let idName = userName + "" + nickName;
 // console.log(idName);
 
 //Greeting
@@ -78,8 +78,8 @@ let message = "${greeting}, ${name}! How are you!";
 let score = 10;
 console.log(score); //1st output 10
 
- score++; //increment output 11
- console.log(score);
+score++; //increment output 11
+console.log(score);
 
 score--; //decrement 10
 console.log(score);
@@ -125,6 +125,8 @@ if (numb1 != 1) {
 }
 
 // Arrays and Object
+
+//Arrays: ek cheez ki multiple cheezo ko ek jga likhnaa
 //.push
 chars = [1, 2, 3, 4, 5, 6];
 chars.push(9);
@@ -166,7 +168,7 @@ let a = "Hafsa"; //--> string
 let b = 18; //--> number
 // let x = "True";//--> undefined
 let y = []; //--> object
-let name = true;
+// let name = true;
 let laptop = null;
 
 console.log(typeof a);
@@ -214,16 +216,16 @@ console.log(favNovel[favNovel.length - 1]); // --> 2nd letter
 
 //String Manipulation
 
-let firstName = "Hafsa";
-let secondName = "Shahid";
-console.log(firstName + secondName);
+// let firstName = "Hafsa";
+// let secondName = "Shahid";
+// console.log(firstName + secondName);
 
-// upper case
-let upperCasefirstName = firstName.toUpperCase();
-console.log(upperCasefirstName);
+// // upper case
+// let upperCasefirstName = firstName.toUpperCase();
+// console.log(upperCasefirstName);
 
-let lowerCasesecondName = secondName.toLowerCase();
-console.log(lowerCasesecondName);
+// let lowerCasesecondName = secondName.toLowerCase();
+// console.log(lowerCasesecondName);
 
 //Substring and Slice
 
@@ -380,5 +382,30 @@ let movie = {
 
 // Using for...in to iterate through the properties
 for (let key in movie) {
-  console.log(`${key}: ${movie[key]}`);
+  // console.log(`${key}: ${movie[key]}`);
+}
+
+// Date and time
+
+let myNewDate = new Date(2000, 1, 1);
+console.log(myNewDate.toLocaleString());
+console.log(myNewDate.toString());
+console.log(myNewDate.toDateString());
+
+let myCurrentDate = new Date();
+console.log(myCurrentDate);
+
+// Objects
+
+// 2 types of obj
+// 1 literal , 2 constructor --> 1 concept singalton
+
+// Obj literal 
+
+const userJs {
+
+  
+
+
+
 }
