@@ -388,24 +388,27 @@ for (let key in movie) {
 // Date and time
 
 let myNewDate = new Date(2000, 1, 1);
-console.log(myNewDate.toLocaleString());
-console.log(myNewDate.toString());
-console.log(myNewDate.toDateString());
+// console.log(myNewDate.toLocaleString());
+// console.log(myNewDate.toString());
+// console.log(myNewDate.toDateString());
 
 let myCurrentDate = new Date();
-console.log(myCurrentDate);
+// console.log(myCurrentDate);
 
 // Objects
 
 // 2 types of obj
 // 1 literal , 2 constructor --> 1 concept singalton
 
-// Obj literal 
+// Obj literal
+// agr console mai kuxh add krna hu tu hum usko ${} lga kr strings  mai add krty hai
+// object kai andr function bnanaa
 
-const userJs {
+user.greeting = function () {
+  console.log("Hello ${hafsa}");
+};
 
-  
-
-
-
-}
+// Singleton object
+const tinderuser = new Object(); //--> singleton
+const tinderuser = {};
+console.log(tinderuser);
