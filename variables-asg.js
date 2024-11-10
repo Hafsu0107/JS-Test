@@ -401,14 +401,15 @@ let myCurrentDate = new Date();
 // 1 literal , 2 constructor --> 1 concept singalton
 
 // Obj literal
-// agr console mai kuxh add krna hu tu hum usko ${} lga kr strings  mai add krty hai
+// agr console mai kuxh add krna hu tu hum usko ${} lga kr uske bhr likhty hai
 // object kai andr function bnanaa
 
 user.greeting = function () {
-  console.log("Hello ${hafsa}");
+  console.log("Hello ${}hafsa");
 };
 
 // Singleton object
-const tinderuser = new Object(); //--> singleton
-const tinderuser = {};
-console.log(tinderuser);
+// const tinderuser = new Object(); //--> singleton
+// const tinderuser = {};
+// console.log(tinderuser);
+
