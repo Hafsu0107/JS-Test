@@ -39,3 +39,4 @@ console.log(isEven(4)); // output true bcz its even
 
 //Find largest number 
 
+// {} is called scope  --> jb ye kisi func kai sth ya if else kai sth atta hai tuu {} scope kehlata hai 
