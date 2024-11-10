@@ -35,3 +35,7 @@ console.log(isEven(5)); // output false bcz its odd
 console.log(isEven(4)); // output true bcz its even
 
 // Count Vowels in a string
+
+
+//Find largest number 
+
