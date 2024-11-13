@@ -20,13 +20,13 @@ let country = "Pakistan";
 // let subtract = a - b;
 // console.log(subtract);
 
-// Kuke hum constant mai variable declare krty hai lkn reassign nh krsktyy
+
 // const myId = 9;
 // myId = 10;
 // console.log(myId);
 
 //String manupulation
-// to variable bnay string mai orr undono stirng ko 3rd variable kai sth add krdena string manupulation kehlata hai
+
 // let myName = "Hafsa";
 // let fName = "Shahid";
 // let fullName = myName + "" + fName;
@@ -98,35 +98,35 @@ console.log(score);
 
 let numb = 9;
 if (numb % 2 == 0) {
-  console.log("it is even");
+  // console.log("it is even");
 } else {
-  console.log("it is odd");
+  // console.log("it is odd");
 }
 //<
 let totalNumb = 50;
 if (totalNumb < 90) {
-  console.log("Passed");
+  // console.log("Passed");
 } else {
-  console.log("fail");
+  // console.log("fail");
 }
 //===
 let number = 10;
 if (number === 9) {
-  console.log("it is equal ");
+  // console.log("it is equal ");
 } else {
-  console.log("it is not equal");
+  // console.log("it is not equal");
 }
 // !=
 let numb1 = 10;
 if (numb1 != 1) {
-  console.log("it is not  equal ");
+  // console.log("it is not  equal ");
 } else {
-  console.log("it is  equal");
+  // console.log("it is  equal");
 }
 
 // Arrays and Object
 
-//Arrays: ek cheez ki multiple cheezo ko ek jga likhnaa
+
 //.push
 chars = [1, 2, 3, 4, 5, 6];
 chars.push(9);
@@ -143,15 +143,15 @@ let student = {
   isStudent: "true",
 };
 student.age = 18;
-console.log(student);
+// console.log(student);
 
 // Undefined and null
 
 let myChildren;
-console.log(typeof myChildren);
+// console.log(typeof myChildren);
 
 let myPlace = null;
-console.log(typeof myPlace);
+// console.log(typeof myPlace);
 
 //Scope demonstration
 
@@ -160,7 +160,7 @@ function user() {
   console.log(message);
 }
 user();
-console.log(message);
+// console.log(message);
 
 // Datatypes Assignment
 
@@ -171,48 +171,48 @@ let y = []; //--> object
 // let name = true;
 let laptop = null;
 
-console.log(typeof a);
-console.log(typeof b);
-console.log(typeof x);
-console.log(typeof y);
-console.log(typeof name);
-console.log(typeof laptop);
+// console.log(typeof a);
+// console.log(typeof b);
+// console.log(typeof x);
+// console.log(typeof y);
+// console.log(typeof name);
+// console.log(typeof laptop);
 
 // Type Conversation
 
 let number1 = "25";
-console.log(number1);
-console.log(typeof number1);
+// console.log(number1);
+// console.log(typeof number1);
 
 // Working with boolean values
 
 let itsWatching = true;
-console.log(itsWatching);
+// console.log(itsWatching);
 
 itsWatching = false;
 console.log(itsWatching);
 
 //
 let isStuding = false;
-console.log(isStuding);
+// console.log(isStuding);
 
 isStuding = true;
-console.log(isStuding);
+// console.log(isStuding);
 
 // String Length and Character Access:
 
 let favoritePhrase = "Carpe Diem";
 
-console.log(favoritePhrase.length); // Output: 10
+// console.log(favoritePhrase.length); // Output: 10
 
 // Access the first and last characters
-console.log(favoritePhrase[0]); // Output: "C"
-console.log(favoritePhrase[favoritePhrase.length - 1]); // Output: "m"
+// console.log(favoritePhrase[0]); // Output: "C"
+// console.log(favoritePhrase[favoritePhrase.length - 1]); // Output: "m"
 
 let favNovel = "Perr-e-Kamil";
-console.log(favNovel.length);
-console.log(favNovel[0]); // --> 1st letter
-console.log(favNovel[favNovel.length - 1]); // --> 2nd letter
+// console.log(favNovel.length);
+// console.log(favNovel[0]); // --> 1st letter
+// console.log(favNovel[favNovel.length - 1]); // --> 2nd letter
 
 //String Manipulation
 
@@ -229,22 +229,21 @@ console.log(favNovel[favNovel.length - 1]); // --> 2nd letter
 
 //Substring and Slice
 
-// Slice method kisi string sai kisi stirng ka  koi bhi prt nikal skty hai
-//isko 2 parameter chye huty hai ek start positon kai liye or ek end position kai liye .
+
 
 var str = "Hafsa, Shahid, Shazia ";
 var rest = str.slice(0, 4);
-console.log(rest);
+// console.log(rest);
 
 //str.slice()
 var charc = "Movie, Film, Video";
 var charc1 = str.slice(0, 10);
-console.log(charc1);
+// console.log(charc1);
 
 //str.substring()
 var sent = "My name is Hafsa";
 var sent1 = str.substring(0, 15);
-console.log(sent1);
+// console.log(sent1);
 
 // parseInt, parseFloat
 //ParseFloat: convert string into floating-point
@@ -278,96 +277,96 @@ console.log(val2);
 
 let num = -9;
 
-// Absolute value
-let absoluteValue = Math.abs(num);
-console.log(absoluteValue); // Output: 9
+// // Absolute value
+// let absoluteValue = Math.abs(num);
+// console.log(absoluteValue); // Output: 9
 
-// Power (raising to the power of 2)
-let squared = Math.pow(num, 2);
-console.log(squared); // Output: 81
+// // Power (raising to the power of 2)
+// let squared = Math.pow(num, 2);
+// console.log(squared); // Output: 81
 
-// Square root
-let squareRoot = Math.sqrt(Math.abs(num)); // Use Math.abs(num) to avoid NaN for negative values
-console.log(squareRoot); // Output: 3
+// // Square root
+// let squareRoot = Math.sqrt(Math.abs(num)); // Use Math.abs(num) to avoid NaN for negative values
+// console.log(squareRoot); // Output: 3
 
-//
-let value = -10;
+// //
+// let value = -10;
 
-let absoluteVal = Math.abs(value); // convert neg to pstv value
-console.log(absoluteVal);
+// let absoluteVal = Math.abs(value); // convert neg to pstv value
+// console.log(absoluteVal);
 
-let squaredVal = Math.pow(value, 4); //multiply
-console.log(squaredVal);
+// let squaredVal = Math.pow(value, 4); //multiply
+// console.log(squaredVal);
 
-let sqrtVal = Math.sqrt(Math.abs(value));
-console.log(sqrtVal);
+// let sqrtVal = Math.sqrt(Math.abs(value));
+// console.log(sqrtVal);
 
-// Arrays And Object
+// // Arrays And Object
 
-let myArray = ["Apple", "Mango", "Bannana", "Stawbery"];
-myArray.push("grapes");
-console.log(myArray); //add new item
+// let myArray = ["Apple", "Mango", "Bannana", "Stawbery"];
+// myArray.push("grapes");
+// console.log(myArray); //add new item
 
-myArray.shift("Apple"); //remove item
-console.log(myArray);
-//Access the 1 and 2 fruit name
-console.log(myArray[1]);
-console.log(myArray[2]);
+// myArray.shift("Apple"); //remove item
+// console.log(myArray);
+// //Access the 1 and 2 fruit name
+// console.log(myArray[1]);
+// console.log(myArray[2]);
 
-myArray[myArray.length - 1] = "This is fruits";
-console.log(myArray);
+// myArray[myArray.length - 1] = "This is fruits";
+// console.log(myArray);
 
-// print each object
+// // print each object
 
-console.log(student.name);
+// console.log(student.name);
 
-console.log(student.age);
+// console.log(student.age);
 
-console.log(student.isStudent);
+// console.log(student.isStudent);
 
-//type coercion is ==,===
-let numberOne = "6";
-let numberTwo = "7";
+// //type coercion is ==,===
+// let numberOne = "6";
+// let numberTwo = "7";
 
-// let oneTwo = numberOne === numberTwo;
-let oneTwo = numberOne == numberTwo;
+// // let oneTwo = numberOne === numberTwo;
+// let oneTwo = numberOne == numberTwo;
 
-let symbol = 0;
+// let symbol = 0;
 
-if (symbol < 9) {
-  console.log("symbol is true");
-} else {
-  console.log("symbol is false");
-}
+// if (symbol < 9) {
+//   console.log("symbol is true");
+// } else {
+//   console.log("symbol is false");
+// }
 
-let forvalue = {};
+// let forvalue = {};
 
-if (forvalue > 9) {
-  console.log("symbol is true");
-} else {
-  console.log("symbol is false");
-}
+// if (forvalue > 9) {
+//   console.log("symbol is true");
+// } else {
+//   console.log("symbol is false");
+// }
 
 // Typeof and instanceof
 yourArray = [1, 2, 3, 4, 5];
 
-console.log(yourArray instanceof Array);
+// console.log(yourArray instanceof Array);
 
 ///
 let var1 = 5;
 let var2 = 9;
 let add = var1 + var2; // -, *
-console.log(add);
+// console.log(add);
 
 // detect NaN
 
 let Nan = 0 - 0;
 let isValueNan = isNaN(Nan);
-console.log(isValueNan);
+// console.log(isValueNan);
 
 // check Array type
 let isValueArray = Array.isArray(yourArray);
-console.log(isValueArray);
+// console.log(isValueArray);
 
 ///Data Types and Variables Assigment Done
 
@@ -405,7 +404,7 @@ let myCurrentDate = new Date();
 // object kai andr function bnanaa
 
 user.greeting = function () {
-  console.log("Hello ${}hafsa");
+  // console.log("Hello ${}hafsa");
 };
 
 // Singleton object

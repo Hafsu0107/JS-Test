@@ -36,7 +36,13 @@ console.log(isEven(4)); // output true bcz its even
 
 // Count Vowels in a string
 
+//Find largest number
 
-//Find largest number 
+// {} is called scope  --> jb ye kisi func kai sth ya if else kai sth atta hai tuu {} scope kehlata hai
 
-// {} is called scope  --> jb ye kisi func kai sth ya if else kai sth atta hai tuu {} scope kehlata hai 
+// This jb hum kisi function kai andar this ko print krty hai tu bht sari values print huti hai
+// Arrow function () =>
+// iffe function ko ()kai andr likhty hai or last mai bhi () lagaty hai tu wo iffe kehte hai
+// () ko lgaa kr ek blog banjata haii  or woo code  run hujata hai
+//Control flow : agr if kai () mai true huga tu andr {} scope kai andr ka code run huga 
+
