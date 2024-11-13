@@ -27,4 +27,9 @@
 
 // Loops ka second name iteration hai  iterators
 
-//  Loops : 1st add  variable second condition; {} 3rd scope kai anddr code 
+//  Loops : 1st add  variable second condition; {} 3rd scope kai anddr code
+
+// for loop
+// 1  for kai bd var decleare huti hai phr semi column; tk condition check huti
+// agr condtion tru hai tu execute huga code hai phr seedha loop scope ki andr chljata hai or jb pura code execute hujata haii.
+// tu phr bhr jump krkee bhrr index ki value brhadeta hai .
