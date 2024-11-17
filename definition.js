@@ -33,3 +33,11 @@
 // 1  for kai bd var decleare huti hai phr semi column; tk condition check huti
 // agr condtion tru hai tu execute huga code hai phr seedha loop scope ki andr chljata hai or jb pura code execute hujata haii.
 // tu phr bhr jump krkee bhrr index ki value brhadeta hai .
+// for of : jb arrays mai laganaa hu to for of msi jdr krege
+// Maps : map ek object hai jo hold krta hai key value pair
+// console.log(key, ":-", value); //--> key sai sari value alag alag print hujayege
+// for in loops : jb object mai loop lagana hu tu for in loop use kregee
+// .forEach loop hmae value wapis nh krta
+//index arrow function
+// arrow function
+

@@ -67,7 +67,7 @@ for (const [key, value] of map) {
   console.log(key, ":-", value); //--> key sai sari value alag alag print hujayege
 }
 
-// for in loops : jb object mai lopp lagana hu tu for in loop use kregee
+// for in loops : jb object mai loop lagana hu tu for in loop use kregee
 const myObject = [7];
 for (const key in myObject) {
   console.log(key);
