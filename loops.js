@@ -43,3 +43,57 @@ do {
   number++; // Increment the number
 } while (number <= 20); // Continue until number exceeds 20
 
+// for of loop : --> ye sb array specific loops hai. String object means kis cheez pr loop lagana hai  array ye sb itterators hai hum in mai loops lgaskty hai
+
+//ques no 1
+// for of : jb arrays mai laganaa hu to for of msi jdr krege
+const arr = ["spiderman"]; // declare var
+for (const name of arr) {
+  // declare for of formula  and add loop for obj
+  console.log(name); // then print valye
+}
+const object = "hafsa";
+for (const name of object) {
+  console.log(name);
+}
+
+// Maps : map ek object hai jo hold krta hai key value pair
+
+const map = new Map();
+map.set("PAK", "PAkistan");
+console.log(map);
+for (const [key, value] of map) {
+  // console.log(country);
+  console.log(key, ":-", value); //--> key sai sari value alag alag print hujayege
+}
+
+// for in loops : jb object mai lopp lagana hu tu for in loop use kregee
+const myObject = [7];
+for (const key in myObject) {
+  console.log(key);
+}
+// forEach loop
+//function
+// const languages = ["css", "java", "php", "python "];
+// languages.forEach(function (val) {
+//   console.log(val);
+// });
+
+// arrow function
+const fruits = ["apple", "banana", "cherry"];
+fruits.forEach((fruit) => console.log(fruit));
+// Output:
+// apple
+// banana
+// cherry
+
+//index arrow function
+const colors = ["red", "green", "blue"];
+colors.forEach((color, index) => {
+  console.log(`Color at index ${index} is ${color}`);
+});
+
+// Output:
+// Color at index 0 is red
+// Color at index 1 is green
+// Color at index 2 is blue
