@@ -72,7 +72,7 @@ const myObject = [7];
 for (const key in myObject) {
   console.log(key);
 }
-// forEach loop
+// .forEach loop hmae value wapis nh krta
 //function
 // const languages = ["css", "java", "php", "python "];
 // languages.forEach(function (val) {
@@ -97,3 +97,98 @@ colors.forEach((color, index) => {
 // Color at index 0 is red
 // Color at index 1 is green
 // Color at index 2 is blue
+
+// .filter bhi call back hi lait hai or ye values return krdeta hai hr value ko acces kia jayega
+// uske bdd condtion deni prhti hai jo jo condition true huwe wo values return  hugi wrna wo values return nh hugi
+// or jb hum arrow function kai bdd isko dusre method sia likty hai iski condition jb scope kai andr likhty hai tu phr return likh kr value likhni huti hai wrna return nh hugaa
+
+const myNum = [1, 2, 3, 4, 5, 6, 7];
+// const newNums = myNum.filter((num) => num > 5); --> basic methode
+// console.log(newNums);
+
+const newNums = myNum.filter((num) => {
+  //--> scope methode
+  return num > 5;
+});
+// console.log(newNums);
+
+// const newNums = [8, 9, 23, 45];
+newNums.forEach((num) => {
+  if (num > 5) {
+    newNums.push(num);
+  }
+});
+console.log(newNums); // filter ko hum 1 line mai bhi likhskty hai or chahee tu return keyword mai bh likhdety hai
+
+const cars = [
+  {
+    title: " car one",
+    brand: "Toyota",
+    model: "Corolla",
+    year: 2020,
+    isElectric: false,
+  },
+  {
+    title: " car two",
+    brand: "suzuki",
+    model: "Corolla",
+    year: 2022,
+  },
+
+  {
+    title: " car three",
+    brand: "swift",
+    model: "mercidies",
+    year: 2021,
+    isElectric: "false",
+  },
+  {
+    title: " car one",
+    brand: "Toyota",
+    model: "Corolla",
+    year: 2020,
+    isElectric: false,
+  },
+  {
+    title: " car two",
+    brand: "suzuki",
+    model: "Corolla",
+    year: 2022,
+  },
+
+  {
+    title: " car three",
+    brand: "swift",
+    model: "mercidies",
+    year: 2021,
+    isElectric: "false",
+  },
+  {
+    title: " car one",
+    brand: "Toyota",
+    model: "Corolla",
+    year: 2020,
+    isElectric: false,
+  },
+  {
+    title: " car two",
+    brand: "suzuki",
+    model: "Corolla",
+    year: 2022,
+  },
+
+  {
+    title: " car three",
+    brand: "swift",
+    model: "mercidies",
+    year: 2021,
+    isElectric: "false",
+  },
+];
+let userCars = cars.filter((car) => car.model === "suzuki");
+console.log(userCars);
+userCars = cars.filter((car) => {
+  return car.year >= "2021";
+});
+console.log(userCars);
+
