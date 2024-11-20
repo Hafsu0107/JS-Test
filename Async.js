@@ -14,10 +14,25 @@
 // Read fie sync                    // read file Async
 
 //                 JS Engine
-//      Memory Heap            --  CAll Stack----
-//     |           |       | fn               |
-//     |           |       | fn               |
-//     |           |       | fn               |
-//     |           |       | Global           |
-//     |           |       |                  |
-//     |___________|       |__________________|
+//      Memory Heap    |     --  CAll Stack----
+//     |           |   |   | fn --> belong Set timout              
+//     |           |   |   | fn               |
+//     |           |   |   | fn               |
+//     |           |   |   | Global -----> Add to GLobal stack --> (CB CB)--> Task Queue
+//     |           |   |   |    |             |
+//     |___________|   |   |____|_____________|
+//                     |        |    high propery
+//                   WEB API     --------------------
+//   | Dom Api                                  |   |
+//   | Set timeout  ----->  Register Callback   |   |
+//   |Set interval                              |   |
+//   |fetch() --> promise  -->(CB CB)-----------|   |
+//   |                                              |
+//   |                                              |
+//   |______________________________________________|
+
+// Jb bhi program execute huta hai usk aek call stack banta hai
+// us call stack kai andr hamara Global execution bnta hai 
+// or ek ek krke function load kiye jaty hai 
+// or execution khtm hune kai bd un function ko unload krdiya jata hai 
+// 
