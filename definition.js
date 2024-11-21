@@ -18,7 +18,6 @@
 // Math.sqrt(num): Returns the square root of a number.
 //Since Math.sqrt() returns NaN for negative values, we used Math.abs(num) to ensure the square root of 9 is calculated correctly.
 
-
 //Function : jitnii line ka code hu usko ek pkg mai krdena func kehlata hai
 // rest(...num) and sperate operator (num...)
 // {} is called scope  --> jb ye kisi func kai sth ya if else kai sth atta hai tuu {} scope kehlata hai
@@ -55,5 +54,22 @@
 //Event: Clicking a button.
 // Response: Show an alert.
 
-
 // API.req : XMLHttpRequest()
+
+// Promise (asyncchronus) ka ek object hai jo kisi gair mutzamin promise krta hai ye hamy is amal ki kamyabi ya nakami ko handel krny ka ek mutawazin or asan tareeka fraham krta  hai
+// There are three  statements.
+// Pending : ye jb tk rehta hai jb tk amal mukamal na hujy.
+// Fulfilled : jab amal kamyab hujayy.
+// Chaining : chaining kai zrye kam ko chain kia jata hai ta kai hr kam ek line mai hu (.then), (.catch).
+
+// Sbse pehle hum var declear krege promise ki const mai.
+// 2 parts huty hai (consumed) krna or ek (Create) krna.,
+// var declear krne kai bd function dete hai.
+// us func kai 2 parts huty hai (Resolve),(Reject).
+// setTime kai kitny time bd code hamara execute huga.
+// Promise create krny kai bd hum consumed krty hai.
+// (Resolve)ka connection -->(.then)kai sth hai.
+// (Reject) ka connection -->(.catch)kai sth hai.
+// 
+
+
