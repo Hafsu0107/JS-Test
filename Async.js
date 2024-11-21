@@ -15,7 +15,7 @@
 
 //                 JS Engine
 //      Memory Heap    |     --  CAll Stack----
-//     |           |   |   | fn --> belong Set timout              
+//     |           |   |   | fn --> call-> Set timout              
 //     |           |   |   | fn               |
 //     |           |   |   | fn               |
 //     |           |   |   | Global -----> Add to GLobal stack --> (CB CB)--> Task Queue
@@ -35,4 +35,6 @@
 // us call stack kai andr hamara Global execution bnta hai 
 // or ek ek krke function load kiye jaty hai 
 // or execution khtm hune kai bd un function ko unload krdiya jata hai 
+// koi aesa resource ya mecanism hu jis mai hum ye boly kai hamy ye kam krke 5 min bd yad diladena
+// tu uske liye hum node.api or web.api ko use krty hai  
 // 
