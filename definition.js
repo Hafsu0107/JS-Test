@@ -54,3 +54,6 @@
 //Example:
 //Event: Clicking a button.
 // Response: Show an alert.
+
+
+// API.req : XMLHttpRequest()
