@@ -70,6 +70,8 @@
 // Promise create krny kai bd hum consumed krty hai.
 // (Resolve)ka connection -->(.then)kai sth hai.
 // (Reject) ka connection -->(.catch)kai sth hai.
-// 
+//
+
+// Fetch 
 
 
