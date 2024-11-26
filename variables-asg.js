@@ -44,7 +44,7 @@ let country = "Pakistan";
 
 // let name = "hafsa";
 let greeting = "Hello";
-let message = "${greeting}, ${name}! How are you!";
+let message = `${greeting}, ${name}! How are you!`;
 // console.log(message);
 
 // Numbs and Basic maths

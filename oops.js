@@ -29,7 +29,7 @@ const user = {
 
   getUserDetails: function () {
     //console.log("Got user details from database");
-    // console.log(`Username: ${this.username}`);
+    // console.log(`Username: ${this.username}`); // --> this keyword ka mtlb apny hi saman sai print krnaa
     console.log(this);
   },
 };

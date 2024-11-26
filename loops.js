@@ -9,7 +9,7 @@
 // loop in loop
 
 for (let j = 0; j <= 10; j++) {
-  console.log("Outer loop value: ${j}");
+  console.log(`Outer loop value: ${j}`);
   for (let a = 0; a <= 10; a++) {
     console.log(a + "*" + j + " = " + a * j);
   }
