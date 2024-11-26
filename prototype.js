@@ -10,7 +10,7 @@ multipleBy5.power = 2;
 
 console.log(multipleBy5(5));
 console.log(multipleBy5.power);
-console.log(multipleBy5.prototype); // prototype ek empty paranthesis hai 
+console.log(multipleBy5.prototype); // prototype ek empty paranthesis hai har ek cheez jakr milti hai object sai
 
 function createUser(username, score) {
   this.username = username;
