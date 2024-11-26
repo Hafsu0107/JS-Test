@@ -1,6 +1,7 @@
 // Array --> object --> null
 //  String -> Object
 // Function
+// This keyword : jisne bhi bulayaa hu usmai numb increase krdu
 
 function multipleBy5(num) {
   return num * 5;
