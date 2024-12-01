@@ -43,3 +43,64 @@ The constructor is called: The constructor function is called with the specified
 The new object is returned: After the constructor function has been called, if it doesn't return a non-primitive value (object, array, function, etc.), the newly created object is returned.
 
 */
+
+// Quest
+// Step 1: Define a constructor function
+function Animal(name, sound) {
+  this.name = name;
+  this.sound = sound;
+}
+
+// Step 2: Add a method to the prototype of the constructor
+Animal.prototype.makeSound = function () {
+  console.log(`${this.name} says: ${this.sound}`);
+};
+
+// Step 3: Create an instance of the constructor function
+const dog = new Animal("Dog", "Woof");
+
+// Step 4: Use the method defined on the prototype
+dog.makeSound(); // Output: "Dog says: Woof"
+
+// Step 5: Add another method to the prototype
+Animal.prototype.describe = function () {
+  console.log(`This is a ${this.name}.`);
+};
+
+// Step 6: Use the new method with the instance
+dog.describe(); // Output: "This is a Dog."
+
+// Quest
+// Define a constructor function
+function Car(make, model) {
+  this.make = make;
+  this.model = model;
+}
+
+// Add a method to the prototype
+Car.prototype.start = function () {
+  console.log(`${this.make} ${this.model} is starting.`);
+};
+
+// Create two objects using the constructor
+const car1 = new Car("Toyota", "Corolla");
+const car2 = new Car("Honda", "Civic");
+
+// Both objects share the same prototype
+console.log(car1.__proto__ === car2.__proto__); // true
+
+// Use the shared prototype method
+car1.start(); // Output: Toyota Corolla is starting.
+car2.start(); // Output: Honda Civic is starting.
+
+// Modify the prototype
+Car.prototype.drive = function () {
+  console.log(`${this.make} ${this.model} is driving.`);
+};
+
+// Both objects can now use the new method
+car1.drive(); // Output: Toyota Corolla is driving.
+car2.drive(); // Output: Honda Civic is driving.
+
+// quest
+

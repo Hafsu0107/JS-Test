@@ -61,7 +61,6 @@
 // Pending : ye jb tk rehta hai jb tk amal mukamal na hujy.
 // Fulfilled : jab amal kamyab hujayy.
 // Chaining : chaining kai zrye kam ko chain kia jata hai ta kai hr kam ek line mai hu (.then), (.catch).
-
 // Sbse pehle hum var declear krege promise ki const mai.
 // 2 parts huty hai (consumed) krna or ek (Create) krna.,
 // var declear krne kai bd function dete hai.
@@ -72,6 +71,11 @@
 // (Reject) ka connection -->(.catch)kai sth hai.
 //
 
-// Fetch 
+// Fetch & Catch are related handling asycnchronous operations
+//  Fetch :fetch is making HTTP request  fetch relate HTTP and API or wo promise return krta hai or wo response object ko solve krta hai.
+//  Catch : catch handling errors during fetch or other asycnchronous operations.
 
+// Prototype :In JavaScript, a prototype is a built-in object from which other objects inherit properties and methods. It plays a central role in JavaScript's prototype-based inheritance.
 
+// Getter (get) defines a method to retrieve the value of a property.
+// Setter (set) defines a method to set or modify the value of a property.
