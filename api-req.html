@@ -12,6 +12,7 @@
     data. 4 DONE The operation is complete.
   </body>
   <script>
+    /*
     const requestUrl = "https://api.github.com/users/hiteshchoudhary";
     const xhr = new XMLHttpRequest();
     xhr.open("GET", requestUrl);
@@ -24,6 +25,27 @@
       }
     };
     xhr.send();
+ */
+
+    // Basic Task 1
+
+    /*
+Fetch and Display Data
+
+- Use XMLHttpRequest to fetch data from https://jsonplaceholder.typicode.com/posts.
+- Display the titles of the first 10 posts on a webpage.
+
+*/
+    const requestUrl = "https://jsonplaceholder.typicode.com/posts";
+    const ali = new XMLHttpRequest();
+    ali.open("GET", requestUrl);
+    ali.onreadystatechange = function () {
+      console.log(ali.readyState);
+      if (ali.readyState === 4) {
+        console.log(this.response);
+      }
+    };
+
+    ali.send();
   </script>
 </html>
-
