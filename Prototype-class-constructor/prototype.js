@@ -2,6 +2,12 @@
 //  String -> Object
 // Function
 // This keyword : jisne bhi bulayaa hu usmai numb increase krdu
+// Page  Call this , class constructor & state
+//class user
+
+// Getter  Setter and stck overflow
+// help get  password  -> getter
+//  set password -> setter
 
 function multipleBy5(num) {
   return num * 5;
@@ -103,4 +109,3 @@ car1.drive(); // Output: Toyota Corolla is driving.
 car2.drive(); // Output: Honda Civic is driving.
 
 // quest
-

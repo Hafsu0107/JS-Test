@@ -80,4 +80,59 @@
 // Getter (get) defines a method to retrieve the value of a property.
 // Setter (set) defines a method to set or modify the value of a property.
 
-// COunt down timer Typing speed test light dark moode toggle word counter 
+// COunt down timer Typing speed test light dark moode toggle word counter
+
+//Page no 42 Javascript and classes  --> This keyword jb use krty hai jb hamyy khi bhr sai apny hi cheez sai koi smaann laina hu
+// OOP (Object Oriented Programming) code likhne ka structure kesa huta hai style kesa huta hai
+// Objects  // Collection of properties and methods
+// toLowerCase , toUpperCase
+
+// why use OOP
+// Parts of OOP
+// Object literal
+// Constructor function
+// Prototypes
+// Classes
+// Instances (new, this)
+
+// 4 pillars
+// Abbstraction --> details hide krlena best ex Fetch
+// Encapsulation --> wrappap krdete hai
+// Inheritance
+// Polimorphism --> ek hi methods apke bht sia kam krdeta hai wo polymorphism kehlata hai
+//(API) (Application programming interface)
+// VS8 repositary --> d8-console.cc , d8-console.h
+//js mai classes bht kam huti hai objects ki refrence zyada huti hai
+
+//************************************************************************************* */
+
+//Page no 40 Promises  --> ye bh ek object hai Library --> Q & bluebird
+// Promise represent eventual completition (or failure) Promise feature mai jakr com[plete huta hai
+//means kai ye sth sth run nh krta lkn bd mai zarur run krta hai
+// Promise States
+// Pending : initial state, neither fulfilled nor rejected
+// Fulfilled : meaning that the operation was completed successfully
+// Rejected : meaning that the operation failed
+
+// const promiseOne = new Promise((resolve, reject) => {});
+//Page 41 1st Fetch api --> XMLH
+// Fetch XMLH ka succesor hai
+// response = fetch ('something')
+// fetch two prts mai kam huna start hujata hai -->
+// 01 :0r ek prt mai data memory reserved krny kai liye bhagta hai --> yellow clr
+// 02 : 1 prt uska browser notpad ki apis ko handel krny kai liye --> green clr
+
+/************************************************************************************************* */
+
+// *********************************************************************************************************
+
+// Page  Call this , class constructor & state
+//class user
+
+/********************************************************************* */
+
+// Getter  Setter and stck overflow
+// help get  password  -> getter
+//  set password -> setter
+
+// Lexcial Scopping -> outer & inner function

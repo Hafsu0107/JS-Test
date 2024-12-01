@@ -1,3 +1,18 @@
+//Page no 40 Promises  --> ye bh ek object hai Library --> Q & bluebird
+// Promise represent eventual completition (or failure) Promise feature mai jakr com[plete huta hai
+//means kai ye sth sth run nh krta lkn bd mai zarur run krta hai
+// Promise States
+// Pending : initial state, neither fulfilled nor rejected
+// Fulfilled : meaning that the operation was completed successfully
+// Rejected : meaning that the operation failed
+
+// const promiseOne = new Promise((resolve, reject) => {});
+//Page 41 1st Fetch api --> XMLH
+// Fetch XMLH ka succesor hai
+// response = fetch ('something')
+// fetch two prts mai kam huna start hujata hai -->
+// 01 :0r ek prt mai data memory reserved krny kai liye bhagta hai --> yellow clr
+// 02 : 1 prt uska browser notpad ki apis ko handel krny kai liye --> green clr
 // Promise (asyncchronus) ka ek object hai jo kisi gair mutzamin promise krta hai ye hamy is amal ki kamyabi ya nakami ko handel krny ka ek mutawazin or asan tareeka fraham krta  hai
 // There are three  statements.
 // Pending : ye jb tk rehta hai jb tk amal mukamal na hujy.

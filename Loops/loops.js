@@ -8,6 +8,9 @@
 // <=, <
 // loop in loop
 //Loops
+// Page no 27 For Loop
+//loop mai sbse pehly index initialize huta hai phr uske bd check huti hai condition agr apki tru hai condition to phr code execute huga
+//jese ek br cll hugya uske bdd index ki value barhadeta hai
 
 let movie = {
   title: "Inception",

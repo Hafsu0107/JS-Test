@@ -15,12 +15,12 @@
 //  Video-17 : Objects in js prt-2.
 //  Video-18 : Object de-structure & JSON API intro.
 //  Video-19 : Functions & Parameters.
-//  Video-20 : GLobal & LOcal Scope.
-//  Video-21 : Scope Level & Mini Hoisting in js.
-//  Video-22 : THIS & arrow in js.
-//  Video-23 : IIFE : Immediately invoked function Expressions.
-//  Video-24 : JS execute code + call stack.
-//  Video-25 :
+//  Video-20 : function in object in array
+//  Video-21 : GLobal & LOcal Scope.
+//  Video-22 :   Scope Level & Mini Hoisting in js.
+//  Video-23 :  THIS & arrow in js.
+//  Video-24 :  IIFE : Immediately invoked function Expressions.
+//  Video-25 : JS execute code + call stack.
 //  Video-26 : Control flow.
 //  Video-27 : Forloop with break & continue.
 //  Video-28 : While & DO While Loop.
@@ -34,11 +34,11 @@
 //  Video-36 : Events in js.
 //  Video-37 : Async Js fundamentals.
 //  Video-38 : 2 project Async JS.
-//  Video-39 : API reuest & V8 engine.
+//  Video-39 : API request & V8 engine.
 //  Video-40 : Promises in js.
 //  Video-41 : Fetch in js.
-//  Video-42 : Object orientedin js(OOP).
-//  Video-43 : Magic od prototype in js.
+//  Video-42 : Object orientation js(OOP).
+//  Video-43 : Magic of prototype in js.
 //  Video-44 : Call & THIS in js.
 //  Video-45 : Class constructor and static.
 //  Video-46 : Bind in js.
