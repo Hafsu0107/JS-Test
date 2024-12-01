@@ -79,3 +79,5 @@
 
 // Getter (get) defines a method to retrieve the value of a property.
 // Setter (set) defines a method to set or modify the value of a property.
+
+// COunt down timer Typing speed test light dark moode toggle word counter 
