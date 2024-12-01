@@ -7,6 +7,29 @@
 // }
 // <=, <
 // loop in loop
+//Loops
+
+let movie = {
+  title: "Inception",
+  director: "Christopher Nolan",
+  releaseYear: 2010,
+  genre: "Science Fiction",
+};
+
+// Using for...in to iterate through the properties
+for (let key in movie) {
+  // console.log(`${key}: ${movie[key]}`);
+}
+
+// Date and time
+
+let myNewDate = new Date(2000, 1, 1);
+// console.log(myNewDate.toLocaleString());
+// console.log(myNewDate.toString());
+// console.log(myNewDate.toDateString());
+
+let myCurrentDate = new Date();
+// console.log(myCurrentDate);
 
 for (let j = 0; j <= 10; j++) {
   console.log(`Outer loop value: ${j}`);
@@ -191,4 +214,3 @@ userCars = cars.filter((car) => {
   return car.year >= "2021";
 });
 console.log(userCars);
-

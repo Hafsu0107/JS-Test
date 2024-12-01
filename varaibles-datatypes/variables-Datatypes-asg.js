@@ -370,29 +370,7 @@ let isValueArray = Array.isArray(yourArray);
 
 ///Data Types and Variables Assigment Done
 
-//Loops
 
-let movie = {
-  title: "Inception",
-  director: "Christopher Nolan",
-  releaseYear: 2010,
-  genre: "Science Fiction",
-};
-
-// Using for...in to iterate through the properties
-for (let key in movie) {
-  // console.log(`${key}: ${movie[key]}`);
-}
-
-// Date and time
-
-let myNewDate = new Date(2000, 1, 1);
-// console.log(myNewDate.toLocaleString());
-// console.log(myNewDate.toString());
-// console.log(myNewDate.toDateString());
-
-let myCurrentDate = new Date();
-// console.log(myCurrentDate);
 
 // Objects
 
