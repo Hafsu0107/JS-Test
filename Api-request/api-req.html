@@ -6,46 +6,50 @@
     <title>Document</title>
   </head>
   <body style="background-color: #212121; color: #fff">
-    0 UNSENT Client has been created. open() not called yet. 1 OPENED open() has
-    been called. 2 HEADERS_RECEIVED send() has been called, and headers and
-    status are available. 3 LOADING Downloading; responseText holds partial
-    data. 4 DONE The operation is complete.
+    <!-- 0 UNSENT Client has been created. open() not called yet.
+     1 OPENED open() has been called.
+     2 HEADERS_RECEIVED send() has been called, and headers and status are available.
+     3 LOADING Downloading; responseText holds partialdata.
+     4 DONE The operation is complete. -->
   </body>
   <script>
     /*
-    const requestUrl = "https://api.github.com/users/hiteshchoudhary";
-    const xhr = new XMLHttpRequest();
-    xhr.open("GET", requestUrl);
-    xhr.onreadystatechange = function () {
-      console.log(xhr.readyState);
-      if (xhr.readyState === 4) {
-        const data = JSON.parse(this.responseText);
-        console.log(typeof data);
-        console.log(data.followers);
-      }
-    };
-    xhr.send();
- */
+        const requestUrl = "https://api.github.com/users/hiteshchoudhary";
+        const xhr = new XMLHttpRequest();
+        xhr.open("GET", requestUrl);
+        xhr.onreadystatechange = function () {
+          console.log(xhr.readyState);
+          if (xhr.readyState === 4) {
+            const data = JSON.parse(this.responseText);
+            console.log(typeof data);
+            console.log(data.followers);
+          }
+        };
+        xhr.send();
+     */
 
     // Basic Task 1
 
     /*
-Fetch and Display Data
+    Fetch and Display Data
 
-- Use XMLHttpRequest to fetch data from https://jsonplaceholder.typicode.com/posts.
-- Display the titles of the first 10 posts on a webpage.
+    - Use XMLHttpRequest to fetch data from https://jsonplaceholder.typicode.com/posts.
+    - Display the titles of the first 10 posts on a webpage.
 
-*/
+    */
     const requestUrl = "https://jsonplaceholder.typicode.com/posts";
-    const ali = new XMLHttpRequest();
-    ali.open("GET", requestUrl);
-    ali.onreadystatechange = function () {
-      console.log(ali.readyState);
-      if (ali.readyState === 4) {
-        console.log(this.response);
+    const haf = new XMLHttpRequest(); // 01 data recv krne ka method XMLHttpRequest huta hai uske bd hum isko new keyword dedete hai phr isko variable mai dedete hai
+    haf.open("GET", requestUrl); // open mai 2 parameters huty hai ek method or ek string
+    haf.onreadystatechange = function () {
+      // ye ek func laita hai jb state chnge hu tu hamy kia laina chye
+
+      console.log(haf.readyState); // phr readystate type krty  hai
+      if (haf.readyState === 4) {
+        const data = JSON.parse(this.responseText);
+        console.log(typeof data);
+        console.log(data.title);
       }
     };
-
-    ali.send();
+    haf.send(); // phr send type krke phr cll krty hai
   </script>
 </html>
