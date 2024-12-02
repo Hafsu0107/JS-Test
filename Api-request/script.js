@@ -27,4 +27,4 @@ haf.open mai 2 parameters huty hai 1 string ka or ek method ka.
 uske bd hum function lagaty hai response kaa or phr status ko sucessfuly krty hai.
 phr hum ek var bnaty hai JSON.parse (this.responseText) kai wo data ko Json file mai convert kry.
 uske bdd hamy jo action krna huga hum wo krgeee means kai ab is quest mai 10 post display krwnaa tha humne wo kia.
-or agy aese phr chlta rahega puri detail hum btatee jayege kai iske bd kia huga kia nh .
+or agy aese phr chlta rahega puri detail hum btatee jayege kai iske bd kia huga kia nh .*/
