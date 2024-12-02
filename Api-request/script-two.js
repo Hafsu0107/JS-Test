@@ -9,7 +9,7 @@ shr.open("GET", url);
 shr.onload = function () {
   if (shr.status === 200) {
     const userIds = JSON.parse(this.response);
-    const firstFifteenId = id.slice(0, 15);
+    const firstFifteenId = userIds.slice(0, 15);
     const idList = document.getElementById("id-list");
     firstFifteenId.forEach((userIds) => {
       const userItem = document.createElement("li");
