@@ -17,9 +17,9 @@
 //  Video-19 : Functions & Parameters.
 //  Video-20 : function in object in array
 //  Video-21 : GLobal & LOcal Scope.
-//  Video-22 :   Scope Level & Mini Hoisting in js.
-//  Video-23 :  THIS & arrow in js.
-//  Video-24 :  IIFE : Immediately invoked function Expressions.
+//  Video-22 : Scope Level & Mini Hoisting in js.
+//  Video-23 : THIS & arrow in js.
+//  Video-24 : IIFE : Immediately invoked function Expressions.
 //  Video-25 : JS execute code + call stack.
 //  Video-26 : Control flow.
 //  Video-27 : Forloop with break & continue.
