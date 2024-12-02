@@ -1,7 +1,3 @@
-/*Fetch and Display Posts
-
-Use the JSON Placeholder API to fetch a list of posts (https://jsonplaceholder.typicode.com/posts) and display their titles and body content in a styled HTML page.
-*/
 
 const shr = new XMLHttpRequest();
 const url = "https://jsonplaceholder.typicode.com/users";
