@@ -2,7 +2,7 @@
 
 // to variable bnay string mai orr undono stirng ko 3rd variable kai sth add krdena string manupulation kehlata hai
 
-//Arrays: ek cheez ki multiple cheezo ko ek jga likhnaa
+//Arrays: ek object hai collection of multiple items single variables ek cheez ki multiple cheezo ko ek jga likhnaa
 
 // Slice method kisi string sai kisi stirng ka  koi bhi prt nikal skty hai
 
