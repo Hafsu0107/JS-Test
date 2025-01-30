@@ -1,4 +1,4 @@
-//Events: An event in JavaScript is something that happens on a web page. 
+//Events: An event in JavaScript is something that happens on a web page.
 // It could be triggered by a user action (like clicking a button, typing in a text box,
 //  or moving the mouse) or by the browser itself (like the page finishing loading or the window being resized).
 
