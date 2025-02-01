@@ -1,6 +1,6 @@
 // Kuke hum constant mai variable declare krty hai lkn reassign nh krsktyy
 
-// to variable bnay string mai orr undono stirng ko 3rd variable kai sth add krdena string manupulation kehlata hai
+// two variable bnay string mai orr undono stirng ko 3rd variable kai sth add krdena string manupulation kehlata hai
 
 //Arrays: ek object hai collection of multiple items single variables ek cheez ki multiple cheezo ko ek jga likhnaa
 
